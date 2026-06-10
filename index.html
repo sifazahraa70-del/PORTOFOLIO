@@ -1,0 +1,374 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Luthfia Zahra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <!-- Landing -->
+  <section id="landing" class="screen screen--landing active">
+
+  <div class="landing-bg"></div>
+
+  <div class="landing-container">
+
+    <div class="landing-top">
+      <div class="top-item">
+        📅 <span>04 JUNE 2026</span>
+      </div>
+
+      <div class="top-item">
+        📍 <span>SERANG, BANTEN • INDONESIA</span>
+      </div>
+    </div>
+
+    <h1 class="landing-title">
+      Welcome to <br>
+      <span>My Portfolio</span>
+    </h1>
+
+    <div class="landing-line"></div>
+
+    <p class="landing-desc">
+      Data Management • Office Administration <br>
+      Digital Content Editing
+    </p>
+
+    <div class="portfolio-card glass">
+      <div class="card-header">
+
+        <div class="logo-circle">
+          <span>LZ</span>
+        </div>
+
+        <div>
+          <h2>Luthfia Zahra</h2>
+          <h4>INFORMATION SYSTEM STUDENT</h4>
+
+          <div class="skill-badges">
+            <span>💾 Data Management</span>
+            <span>💼 Office Administration</span>
+            <span>✏ Digital Content Editing</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="card-divider"></div>
+
+      <p class="card-text">
+        Detail-oriented and organized, with experience in data management,
+        administrative support, and digital content creation.
+        Passionate about technology, efficiency, and continuous learning.
+      </p>
+
+    </div>
+
+    <button class="enter-btn" id="enterBtn">
+      CLICK TO ENTER PORTFOLIO →
+    </button>
+
+    <div class="social-footer">
+      <span>Find me on</span>
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+      <a href="#">Email</a>
+      <span>@luthfiazahra</span>
+    </div>
+
+  </div>
+</section>
+  <!-- Portfolio -->
+  <section id="portfolio" class="screen screen--portfolio">
+    <div class="portfolio-bg"></div>
+
+    <nav class="navbar glass reveal">
+      <div class="brand">
+        <div class="brand__mark">LZ</div>
+        <div>
+          <strong>Luthfia Zahra</strong>
+          <span>Portfolio</span>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☾</button>
+        <a class="icon-btn" href="#contact" aria-label="Scroll to contact">↘</a>
+      </div>
+    </nav>
+
+    <main class="content">
+      <section class="hero glass reveal">
+        <div class="hero-copy">
+          <p class="section-kicker">PROFESSIONAL PROFILE</p>
+          <h2>INFORMATION OF ME</h2>
+          <p class="hero-description">
+            Mahasiswa Sistem Informasi Universitas Pamulang yang memiliki pengalaman dalam administrasi data,
+            pengelolaan dokumen, dan pembuatan konten digital. Terampil menggunakan Microsoft Office, SQL dasar,
+            analisis data, komunikasi, dan teamwork.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#about">Lihat Profil</a>
+            <a class="btn btn--ghost" href="#projects">Lihat Kegiatan</a>
+          </div>
+
+          <div class="social-row">
+            <a href="#" class="social-pill">LinkedIn</a>
+            <a href="#" class="social-pill">Instagram</a>
+            <a href="#" class="social-pill">Telegram</a>
+          </div>
+        </div>
+
+        <div class="profile-card glass">
+          <div class="profile-photo">
+            <img class="profile-photo__image" src="foto-lanyard.jpg.jpeg" alt="Foto Luthfia Zahra" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';" />
+            <span>LZ</span>
+          </div>
+          <div class="profile-meta">
+            <h3>Luthfia Zahra</h3>
+            <p>Data Management | Office Administration | Digital Content Editing</p>
+          </div>
+          <div class="stats">
+            <div><strong>2</strong><span>Experience</span></div>
+            <div><strong>9</strong><span>Skills</span></div>
+            <div><strong>4</strong><span>Sections</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Lanyard Card -->
+      <section class="lanyard-section glass reveal">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">LANYARD CARD</p>
+            <h3>Kartu portofolio bergaya gantung seperti React Bits.</h3>
+          </div>
+          <button class="btn btn--ghost btn--small" id="rotateCardBtn">Rotate Card</button>
+        </div>
+
+        <div class="lanyard-scene" id="lanyardScene">
+          <div class="lanyard-strap"></div>
+          <div class="lanyard-hook"></div>
+
+          <div class="lanyard-card" id="lanyardCard">
+            <div class="lanyard-card__shine"></div>
+            <div class="lanyard-card__photo">
+                <img class="lanyard-card__image" src="foto-lanyard.jpg.jpeg" alt="Foto Luthfia Zahra" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';" />
+                <div class="photo-placeholder">LZ</div>
+            </div>
+
+            <div class="lanyard-card__content">
+              <h4>Luthfia Zahra</h4>
+              <p>Data Management | Office Administration | Digital Content Editing</p>
+
+              <div class="lanyard-card__meta">
+                <a class="lanyard-card__meta-link" href="https://www.google.com/search?q=Universitas+Pamulang" target="_blank" rel="noopener noreferrer">Universitas Pamulang</a>
+                <a class="lanyard-card__meta-link" href="https://www.google.com/maps/search/?api=1&query=Serang+Banten" target="_blank" rel="noopener noreferrer">Serang, Banten</a>
+              </div>
+
+              <div class="lanyard-card__socials">
+                <a href="https://www.linkedin.com/in/luthfia-zahra-855270384?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.instagram.com/zahr.a117517?igsh=MTE4ZWE0eW5ueGZ1bA==" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://t.me/Sabrina_Chaterine10" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <a href="https://share.google/dn1blcwpCX9B3HVra" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="grid grid--2">
+        <article class="panel glass reveal">
+          <p class="section-kicker">ABOUT ME</p>
+          <h3>Ringkasan Profil</h3>
+          <p>
+            Mahasiswa Sistem Informasi Universitas Pamulang yang memiliki pengalaman dalam administrasi data,
+            pengelolaan dokumen, dan pembuatan konten digital. Berorientasi pada ketelitian, efisiensi kerja,
+            serta pengembangan karier di bidang Data Management, Business Administration, maupun Information Technology.
+          </p>
+        </article>
+
+        <article class="panel glass reveal">
+          <p class="section-kicker">CONTACT</p>
+          <h3>Informasi Utama</h3>
+          <ul class="list">
+            <li><span>Telepon</span><b>+62 857-1095-0691</b></li>
+            <li><span>Email</span><b>sifazahraa70@gmail.com</b></li>
+            <li><span>Lokasi</span><b>Serang, Banten</b></li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="grid grid--2">
+        <article class="panel glass reveal">
+          <p class="section-kicker">EDUCATION</p>
+          <h3>Pendidikan</h3>
+          <div class="timeline">
+            <div class="timeline__item">
+              <span class="timeline__date">2022 - 2025</span>
+              <div>
+                <h4>SMKN 4 Pandeglang</h4>
+                <p>Rekayasa Perangkat Lunak (RPL)</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <span class="timeline__date">2025 - Sekarang</span>
+              <div>
+                <h4>Universitas Pamulang</h4>
+                <p>S1 Sistem Informasi</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel glass reveal">
+          <p class="section-kicker">SKILLS</p>
+          <h3>Keahlian</h3>
+          <div class="skills">
+            <span>Communication</span>
+            <span>Attention to Detail</span>
+            <span>Teamwork</span>
+            <span>Problem Solving</span>
+            <span>Time Management</span>
+            <span>Microsoft Office</span>
+            <span>SQL Dasar</span>
+            <span>Canva</span>
+            <span>CapCut</span>
+          </div>
+        </article>
+      </section>
+
+      <section class="grid grid--2">
+        <article class="panel glass reveal">
+          <p class="section-kicker">EXPERIENCE</p>
+          <h3>Pengalaman</h3>
+          <div class="cards">
+            <div class="small-card">
+              <h4>Administrative Assistant Intern</h4>
+              <span>UPTD Puskeswan Pandeglang • Jun 2024 - Nov 2024</span>
+              <p>
+                Mengelola administrasi kepegawaian secara sistematis melalui input, verifikasi, dan pengarsipan harian
+                untuk 50+ data medis, absensi, serta surat izin pegawai.
+              </p>
+            </div>
+            <div class="small-card">
+              <h4>Koordinator Tim Dokumentasi</h4>
+              <span>SMKN 4 Pandeglang • Des 2024</span>
+              <p>
+                Memimpin tim dokumentasi 5 orang untuk mendokumentasikan acara Expo Teaching Factory,
+                memproduksi video pengenalan jurusan, dan menyusun arsip digital.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel glass reveal">
+          <p class="section-kicker">TOOLS</p>
+          <h3>Platform & Media</h3>
+          <div class="tool-grid">
+            <a class="tool-chip" href="#">LinkedIn</a>
+            <a class="tool-chip" href="#">Instagram</a>
+            <a class="tool-chip" href="#">Telegram</a>
+            <a class="tool-chip" href="#">WhatsApp</a>
+            <a class="tool-chip" href="#">Google Drive</a>
+            <a class="tool-chip" href="#">Email</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects" class="panel glass reveal">
+        <p class="section-kicker">ACTIVITY PHOTOS</p>
+        <div class="section-heading">
+          <h3>Foto Kegiatan & Dokumentasi</h3>
+          <p>Ganti placeholder dengan foto asli kegiatan Anda di folder assets/.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="photo-card photo-card--one"><figcaption>PKL - Administrasi Data</figcaption></figure>
+          <figure class="photo-card photo-card--two"><figcaption>Dokumentasi Kegiatan Sekolah</figcaption></figure>
+          <figure class="photo-card photo-card--three"><figcaption>Expo Teaching Factory</figcaption></figure>
+          <figure class="photo-card photo-card--four"><figcaption>Pembuatan Konten Digital</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="grid grid--2">
+        <article class="panel glass reveal">
+          <p class="section-kicker">CERTIFICATES</p>
+          <h3>Sertifikat</h3>
+          <div class="cert-grid">
+            <div class="cert-card" data-cert-title="PKL / Magang" data-cert-desc="Sertifikat pengalaman magang dan administrasi data." data-cert-target="#about">
+              <div class="cert-thumb cert-thumb--one">
+                <img class="cert-thumb__image" src="foto-sertif1.jpeg" alt="Foto sertifikat PKL / Magang" onerror="this.style.display='none';" />
+              </div>
+              <div>
+                <h4>PKL / Magang</h4>
+                <p>Tambahkan sertifikat PKL Anda di sini.</p>
+              </div>
+            </div>
+            <div class="cert-card" data-cert-title="UKOM" data-cert-desc="Sertifikat uji kompetensi yang menunjukkan kemampuan teknis dan administrasi." data-cert-target="#about">
+              <div class="cert-thumb cert-thumb--two">
+                <img class="cert-thumb__image" src="foto-sertif2.jpeg" alt="Foto sertifikat UKOM" onerror="this.style.display='none';" />
+              </div>
+              <div>
+                <h4>UKOM</h4>
+                <p>Tambahkan sertifikat uji kompetensi Anda.</p>
+              </div>
+            </div>
+            <div class="cert-card" data-cert-title="Seminar Nasional" data-cert-desc="Sertifikat seminar atau pelatihan untuk pengembangan pengetahuan dan wawasan." data-cert-target="#about">
+              <div class="cert-thumb cert-thumb--three">
+                <img class="cert-thumb__image" src="foto-sertif3.jpeg" alt="Foto sertifikat seminar nasional" onerror="this.style.display='none';" />
+              </div>
+              <div>
+                <h4>Seminar Nasional</h4>
+                <p>Tambahkan sertifikat seminar atau pelatihan.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="contact" class="panel glass reveal">
+          <p class="section-kicker">CONTACT</p>
+          <h3>Hubungi Saya</h3>
+          <p>
+            Siapkan tautan asli LinkedIn, Instagram, dan Telegram Anda pada bagian tool/link di atas.
+          </p>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Nama" />
+            <input type="email" placeholder="Email" />
+            <textarea rows="4" placeholder="Pesan"></textarea>
+            <button class="btn btn--primary" type="button">Kirim Pesan</button>
+          </form>
+        </article>
+      </section>
+    </main>
+  </section>
+
+  <div class="cert-modal" id="certModal" aria-hidden="true">
+    <div class="cert-modal__backdrop" data-cert-close></div>
+    <div class="cert-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="certModalTitle">
+      <button class="cert-modal__close" type="button" aria-label="Tutup sertifikat" data-cert-close>×</button>
+      <div class="cert-modal__media">
+        <img id="certModalImage" alt="Preview sertifikat" />
+      </div>
+      <div class="cert-modal__body">
+        <p class="section-kicker">CERTIFICATE PREVIEW</p>
+        <h3 id="certModalTitle">Sertifikat</h3>
+        <p id="certModalDesc" class="cert-modal__desc"></p>
+        <button class="btn btn--primary cert-modal__btn" id="backToProfileBtn" type="button">Back to Profil</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
